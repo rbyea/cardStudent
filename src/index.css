@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.label-form {
+  width: 100%;
+}
+
+.formlist button {
+  margin-right: 15px;
+}
+
+.formlist button:last-child {
+  margin-right: 0;
+}
+
+.card-close {
+  position: absolute;
+  right: 9px;
+  text-decoration: none;
+  top: 1px;
+}
+
+.card img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.modal-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.modal-wrapper .list-group {
+  width: 50%;
+  word-break: break-all;
+}
+
+.modal-wrapper .list-group:first-child {
+  margin-right: 10px;
+}
